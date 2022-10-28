@@ -12,9 +12,18 @@
   - [2.6. Memorability](#26-memorability)
 - [3. Interface and Interaction](#3-interface-and-interaction)
   - [3.1. Interface](#31-interface)
+    - [3.1.1. Introduction](#311-introduction)
+      - [3.1.1.1. Interfaces](#3111-interfaces)
   - [3.2. Interaction (Design interaction)](#32-interaction-design-interaction)
     - [3.2.1. Definitions](#321-definitions)
-    - [3.2.2. The Process of Interaction Design](#322-the-process-of-interaction-design)
+    - [3.2.2. The components of Interaction Design](#322-the-components-of-interaction-design)
+    - [3.2.3. The User Experience](#323-the-user-experience)
+    - [3.2.4. The Process of Interaction Design](#324-the-process-of-interaction-design)
+      - [3.2.4.1. Establishing requirements.](#3241-establishing-requirements)
+      - [3.2.4.2. Designing alternatives.](#3242-designing-alternatives)
+      - [3.2.4.3. Evaluating](#3243-evaluating)
+      - [3.2.4.4. Prototyping](#3244-prototyping)
+      - [3.2.4.5. Accessibility](#3245-accessibility)
   - [3.3. Interface vs Interaction](#33-interface-vs-interaction)
 - [4. Tools](#4-tools)
 - [5. Standards](#5-standards)
@@ -127,6 +136,8 @@
 - Safe interactive systems should engender confidence and allow the user the opportunity to explore the interface to try out new operations.
 - Other safety mechanisms include undo facilities and confirmatory dialog boxes that give users another chance to consider their intentions (a well-known example is the appearance of a dialog box, after issuing the command to delete everything in the trashcan, saying: "Are you sure you want to move this folder to the Recycle Bin".
 
+![Windows dialog delete confirmation](/Images/WindowsDialogDeleteConfirmation.png)
+
 ## 2.4. Utility
 
 - **Utility** refers to the extent to which the product provides the right kind of functionality so that users can do what they need or want to do.
@@ -152,22 +163,40 @@
 - For example, users can be helped to remember the sequence of operations at different stages of a task through meaningful icons, command names, and menu options.
   - **Question:** What kinds of interface support have been provided to help users remember how to carry out tasks, especially for products and operations they use infrequently?
 
-![Windows dialog delete confirmation](/Images/WindowsDialogDeleteConfirmation.png)
-
 # 3. Interface and Interaction
 
 ## 3.1. Interface
+
+### 3.1.1. Introduction
+
+- Until the mid-1990s, interaction designers concerned themselves largely with developing efficient and effective user interfaces for desktop computers aimed at the single user.
+- Advances in graphical interfaces, speech, gesture and handwriting recognition, together with the arrival of the Internet, smartphones, wireless networks, sensor technologies, and an assortment of other new technologies providing large and small displays, have changed the face of human–computer interaction.
+- The range of technological developments has encouraged different ways of thinking about interaction design and an expansion of research in the field.
+- For example, innovative ways of controlling and interacting with digital information have been developed that include gesture-based, touch-based, and even brain–computer interaction. Researchers and developers have combined the physical and digital in novel ways, resulting in mixed realities, augmented realities, tangible interfaces, and wearable computing.
+- A major thrust has been to design new interfaces that extend beyond the individual user: supporting small-and large-scale social interactions for people on the move, at home, and at work.
+
+[Introdu](https://www.youtube.com/watch?v=vRuGPzdLbyQ&ab_channel=EvolutionEra)
+
+#### 3.1.1.1. Interfaces
+
+- There is now a diversity of interfaces, the principals:
+  - Web
+  - Mobile
+  - Virtual reality
+  - Speech
+  - Pen
+  - Touch
 
 ## 3.2. Interaction (Design interaction)
 
 ### 3.2.1. Definitions
 
 - By interaction design, we mean:
-  - Designing interactive products to support the way people communicate and interact in their everyday and working lives.
+  - _Designing interactive products to support the way people communicate and interact in their everyday and working lives._
 - Different aspects by authors
   - Winograd describes it as _"designing spaces for human communication and interaction" (1997, p. 160)_.
-  - Thackara views it as _“the why as well as the how of our daily interactions using computers"(2001, p. 50)_.
-  - Saffer emphasizes its artistic aspects: _“the art of facilitating interactions between humans through products and services” (2010, p. 4)_.
+  - Thackara views it as _"the why as well as the how of our daily interactions using computers"(2001, p. 50)_.
+  - Saffer emphasizes its artistic aspects: _"the art of facilitating interactions between humans through products and services" (2010, p. 4)_.
 - The focus of interaction design is very much concerned with practice, i.e. how to design user experiences.
 - How does interaction design differ from other approaches to the design of computer-based systems, such as software engineering?
 - A simple analogy to another profession, concerned with creating buildings, may clarify this difference.
@@ -175,19 +204,87 @@
   - Architects are concerned with the people and their interactions with each other and with the house being built. For example, is there the right mix of family and private spaces? Are the spaces for cooking and eating in close proximity? Will people live in the space being designed in the way it was intended to be used?
   - In contrast, engineers are interested in issues to do with realizing the project. These include practical concerns like cost, durability, structural aspects, environmental aspects, fire regulations, and construction methods. Just as there is a difference between designing and building a house, so too is there a distinction between designing an interactive product and engineering the software for it.
 
+### 3.2.2. The components of Interaction Design
+
 ![Interdisciplinary overlapping fields](/Images/InterdisciplinaryOverlappingFields.png)
 
-### 3.2.2. The Process of Interaction Design
+### 3.2.3. The User Experience
 
-- The process of interaction design involves four basic activities:
+- The user experience (UX) is central to interaction design.
+- By this it is meant how a product behaves and is used by people in the real world.
+- Nielsen and Norman (2014) define it as encompassing "all aspects of the end-user's interaction with the company, its services, and its products."
+- As stressed by _Garrett (2010, p. 10), "every product that is used by someone has a user experience: newspapers, ketchup bottles, reclining armchairs, cardigan sweaters._"
+- It is important to point out that one cannot design a user experience, only design for a user experience.
+- In particular, one cannot design a enjoyable experience, but only create the design features that can evoke it.
+  - For example, the outside case of a cell phone can be designed to be smooth, silky, and fit in the palm of a hand; when held, touched, looked at, and interacted with, that can provoke a enjoyable and satisfying user experience.
+  - Conversely, if it is designed to be heavy and awkward to hold, it is much more likely to end up providing a poor user experience, one that is uncomfortable and unpleasant.
 
-1. Establishing requirements
-2. Designing alternatives
-3. Prototyping
+[Steve Jobs introduces first iPhone in 2007](https://www.youtube.com/watch?v=taTmpYQ_3jk&ab_channel=SBAPApresenta%C3%A7%C3%B5es)
+
+### 3.2.4. The Process of Interaction Design
+
+- The process of interaction design involves five basic activities:
+
+1. Establishing requirements.
+2. Designing alternatives.
+3. Prototyping.
 4. Evaluating.
-5. Accessibility
+5. Accessibility.
+
+#### 3.2.4.1. Establishing requirements.
+
+- In order to design something to support people, we must know who our target users are and what kind of support an interactive product could usefully provide.
+- These needs form the basis of the product's requirements and underpin subsequent design and development.
+- This activity is fundamental to a user-centered approach, and is very important in interaction design.
+
+#### 3.2.4.2. Designing alternatives.
+
+- This is the core activity of designing: actually suggesting ideas for meeting the requirements.
+- This activity can be viewed as two sub-activities:
+  - Conceptual design and concrete design:
+    - **Conceptual design** involves producing the conceptual model for the product, and a conceptual model describes an abstraction outlining what people can do with a product and what concepts are needed to understand how to interact with it.
+    - **Concrete design considers** the detail of the product including the colors, sounds, and images to use, menu design, and icon design. Alternatives are considered at every point.
+
+#### 3.2.4.3. Evaluating
+
+- Evaluating what has been built is very much at the heart of interaction design.
+- Its focus is on ensuring that the product is appropriate.
+- It is usually addressed through a user-centered approach to design, which, as the name suggests, seeks to involve users throughout the design process.
+- There are many different ways of achieving this:
+  - Through observing users
+  - Talking to them
+  - Interviewing them
+  - Modeling their performance
+  - Asking them to fill in questionnaires
+  - Even asking them to become co-designers.
+
+#### 3.2.4.4. Prototyping
+
+- A prototype is one manifestation of a design that allows stakeholders to interact with it and to explore its suitability; it is limited in that a prototype will usually emphasize one set of product characteristics and de-emphasize others.
+- When you hear the term prototype, you may imagine a scale model of a building or a bridge, or a piece of software that crashes every few minutes.
+- A prototype can also be a paper-based outline of a display, a collection of wires and ready-made components, an electronic picture, a video simulation, a complex piece of software and hardware, or a three-dimensional mockup of a workstation.
+
+#### 3.2.4.5. Accessibility
+
+- Accessibility refers to the degree to which an interactive product is accessible by as many people as possible.
+- A focus is on people with disabilities.
+- But what does it mean to be disabled? Definitions vary, but the following captures the main points.
+  - People are considered to be disabled if:
+    - They have a mental or physical impairment.
+    - The impairment has an adverse effect on their ability to carry out normal day-to-day activities.
+- It is quite common, when people first consider the topic of accessibility and interaction design, to consider it largely in terms of a specific physical disability, such as the inability to walk or being visually impaired.
+- However, it can often be the case that a person will have more than one disability.
+- There is a wide range of disabilities including:
+- **Color-blindness:** The inability to distinguish between two colors affects approximately 1 in 10 men and 1 in 200 women.
+  - This has an impact on the use of color for highlighting or distinguishing interface elements.
+- **Dyslexia:** Although usually associated with difficulties in reading and writing, there are many different forms of dyslexia, some of which affect the way in which people comprehend the totality of concepts.
+  - A relatively simple interaction design decision that can cause difficulties for people with dyslexia is the contrast between foreground and background text or images.
+- **Physical impairments:** These range from conditions such as tremor or shaking, weakness, pain, reduced control of limbs, inability to sit upright, to short or missing limbs.
 
 ## 3.3. Interface vs Interaction
+
+- Interaction design determines what's on the screen and how people use those elements.
+- Interface design determines what those elements look like.
 
 # 4. Tools
 
