@@ -25,30 +25,21 @@
       - [3.2.4.4. Prototyping](#3244-prototyping)
       - [3.2.4.5. Accessibility](#3245-accessibility)
   - [3.3. Interface vs Interaction](#33-interface-vs-interaction)
-- [4. Tools](#4-tools)
-- [5. Standards](#5-standards)
-- [6. recommendations](#6-recommendations)
-- [7. Method/Techniques](#7-methodtechniques)
-- [8. Prototyping](#8-prototyping)
-- [9. Context of use](#9-context-of-use)
-- [10. User](#10-user)
-- [11. Tasks](#11-tasks)
-- [12. Principles of professional communication and posture](#12-principles-of-professional-communication-and-posture)
-- [13. Behavior and Teamwork](#13-behavior-and-teamwork)
-- [14. Conflict situations](#14-conflict-situations)
-- [15. Rules of coexistence](#15-rules-of-coexistence)
-- [16. Satisfaction factors](#16-satisfaction-factors)
-- [17. Work organization](#17-work-organization)
-- [18. Hierarchical structures](#18-hierarchical-structures)
-- [19. Administrative systems](#19-administrative-systems)
-- [20. Activity control](#20-activity-control)
-- [21. Strategic planning:](#21-strategic-planning)
-- [22. Systemic View](#22-systemic-view)
-- [23. Microcosm and Macrocosm](#23-microcosm-and-macrocosm)
-- [24. Systems Thinking](#24-systems-thinking)
+- [4. Prototyping](#4-prototyping)
+  - [4.1. What Is a Prototype?](#41-what-is-a-prototype)
+  - [4.2. Why Prototype?](#42-why-prototype)
+  - [4.3. Low-Fidelity Prototyping](#43-low-fidelity-prototyping)
+    - [4.3.1. Storyboarding.](#431-storyboarding)
+    - [4.3.2. Sketching](#432-sketching)
+  - [4.4. High-Fidelity Prototyping](#44-high-fidelity-prototyping)
+  - [4.5. Vantages and disadvantages of low and high fidelity prototypes](#45-vantages-and-disadvantages-of-low-and-high-fidelity-prototypes)
+- [5. Context of use](#5-context-of-use)
+- [6. User](#6-user)
+- [7. Tasks](#7-tasks)
 
 # 1. Introduction
 
+- This content was extracted from the [Book Interaction Design: Beyond Human-Computer Interaction](https://www.amazon.com.br/Interaction-Design-Beyond-Human-Computer/dp/1119547253/ref=sr_1_3?qid=1667566775&refinements=p_27%3AHelen+Sharp&s=books&sr=1-3&text=Helen+Sharp&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6) for study.
 - How many interactive products are there in everyday use?
   - Smarthphone
   - Tablet
@@ -175,7 +166,7 @@
 - For example, innovative ways of controlling and interacting with digital information have been developed that include gesture-based, touch-based, and even brain–computer interaction. Researchers and developers have combined the physical and digital in novel ways, resulting in mixed realities, augmented realities, tangible interfaces, and wearable computing.
 - A major thrust has been to design new interfaces that extend beyond the individual user: supporting small-and large-scale social interactions for people on the move, at home, and at work.
 
-[Introdu](https://www.youtube.com/watch?v=vRuGPzdLbyQ&ab_channel=EvolutionEra)
+[Evolution Of Windows Operating System (1985 - 2021)](https://www.youtube.com/watch?v=vRuGPzdLbyQ&ab_channel=EvolutionEra)
 
 #### 3.1.1.1. Interfaces
 
@@ -286,44 +277,66 @@
 - Interaction design determines what's on the screen and how people use those elements.
 - Interface design determines what those elements look like.
 
-# 4. Tools
+# 4. Prototyping
 
-# 5. Standards
+- It is often said that users can't tell you what they want, but when they see something and get to use it, they soon know what they don't want.
+- Having established some requirements, the next step is to try out design ideas through prototyping and evaluation cycles.
 
-# 6. recommendations
+## 4.1. What Is a Prototype?
 
-# 7. Method/Techniques
+- A prototype is one manifestation of a design that allows stakeholders to interact with it and to explore its suitability; it is limited in that a prototype will usually emphasize one set of product characteristics and de-emphasize others.
+- In fact, a prototype can be anything from a paper-based storyboard through to a complex piece of software, and from a cardboard mockup to a molded or pressed piece of metal.
 
-# 8. Prototyping
+## 4.2. Why Prototype?
 
-# 9. Context of use
+- Prototypes answer questions and support designers in choosing between alternatives.
+- Hence, they serve a variety of purposes:
+  - Test out the technical feasibility of an idea.
+  - Clarify some vague requirements.
+  - To do some user testing and evaluation.
+  - Check that a certain design direction is compatible with the rest of product development.
 
-# 10. User
+## 4.3. Low-Fidelity Prototyping
 
-# 11. Tasks
+- A low-fidelity prototype does not look very much like the final product and does not provide the same functionality.
+- Low-fidelity prototypes are useful because they tend to be simple, cheap, and quick to produce.
+  - This also means that they are simple, cheap, and quick to modify so they support the exploration of alternative designs and ideas.
+- This is particularly important in early stages of development, during conceptual design for example, because prototypes that are used for exploring ideas should be flexible and encourage exploration and modification.
+- Low-fidelity prototypes are not meant to be kept and integrated into the final product.
+- They are for exploration only.
 
-# 12. Principles of professional communication and posture
+### 4.3.1. Storyboarding.
 
-# 13. Behavior and Teamwork
+- Storyboarding is one example of low-fidelity prototyping that is often used in conjunction with scenarios.
+- A storyboard consists of a series of sketches showing how a user might progress through a task using the product under development.
+- It can be a series of screen sketches or a series of scenes showing how a user can perform a task using an interactive device.
+- When used in conjunction with a scenario, the storyboard provides more detail and offers stakeholders a chance to role-play with a prototype, interacting with it by stepping through the scenario.
+- An example storyboarding:
+  ![Example of storyboarding](/Images/Storyboarding.png)
 
-# 14. Conflict situations
+### 4.3.2. Sketching
 
-# 15. Rules of coexistence
+- Low-fidelity prototyping often relies on hand-drawn sketches, and many people find it difficult to engage in this activity because they are inhibited about the quality of their drawing, but as _Greenberg et al (2012) put it, "Sketching is not about drawing. Rather, it is about design" (p. 7)_.
+- You can get over any inhibition by devising your own symbols and icons and practicing them – referred to by Greenberg et al as a 'sketching vocabulary' (p. 85).
+- They don't have to be anything more than simple boxes, stick figures, and stars.
+- Elements you might require in a storyboard sketch, for example, include digital devices, people, emotions, tables, books, etc., and actions such as give, find, transfer, and write.
+- If you are sketching an interface design, then you might need to draw various icons, dialog boxes, and so on.
+- Sketching example:
+  ![Example of sketching](/Images/Sketching.png)
 
-# 16. Satisfaction factors
+## 4.4. High-Fidelity Prototyping
 
-# 17. Work organization
+- A high-fidelity prototype looks like the final product and/or provides more functionality than a low-fidelity prototype.
 
-# 18. Hierarchical structures
+## 4.5. Vantages and disadvantages of low and high fidelity prototypes
 
-# 19. Administrative systems
+| Type                    | Advantages                                                                                                                                                                                                                     | Disadvantages                                                                                                                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Low-fidelity prototype  | - Lower development cost - Evaluates multiple design concepts - Useful communication device - Addresses screen layout issues - Useful for identifying market requirements - Proof of concept                                   | - Limited error checking - Poor detailed specification to code to - Facilitator-driven - Limited utility after requirements established - Limited usefulness for usability tests - Navigational and flow limitations |
+| High-fidelity prototype | - Complete functionality - Fully interactive - User-driven - Clearly defines navigational scheme - Use for exploration and test - Look and feel of final product - Serves as a living specification - Marketing and sales tool | - More resource-intensive to develop - Time-consuming to create - Inefficient for proof-of-concept designs - Not effective for requirements gathering                                                                |
 
-# 20. Activity control
+# 5. Context of use
 
-# 21. Strategic planning:
+# 6. User
 
-# 22. Systemic View
-
-# 23. Microcosm and Macrocosm
-
-# 24. Systems Thinking
+# 7. Tasks
