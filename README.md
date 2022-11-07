@@ -34,8 +34,10 @@
   - [4.4. High-Fidelity Prototyping](#44-high-fidelity-prototyping)
   - [4.5. Vantages and disadvantages of low and high fidelity prototypes](#45-vantages-and-disadvantages-of-low-and-high-fidelity-prototypes)
 - [5. Context of use](#5-context-of-use)
-- [6. User](#6-user)
-- [7. Tasks](#7-tasks)
+  - [5.1. Physical environment](#51-physical-environment)
+  - [5.2. Social environment](#52-social-environment)
+  - [5.3. Organizational environment](#53-organizational-environment)
+  - [5.4. Technical environment](#54-technical-environment)
 
 # 1. Introduction
 
@@ -337,6 +339,33 @@
 
 # 5. Context of use
 
-# 6. User
+- Environmental requirements – or **context of use** – refer to the circumstances in which the interactive product will operate.
+- Four aspects of the environment must be considered when establishing requirements:
+  - Physical environment.
+  - Social environment.
+  - Organizational environment.
+  - Technical environment.
 
-# 7. Tasks
+## 5.1. Physical environment
+
+- Physical environment, such as how much lighting, noise, movement, and dust is expected in the operational environment.
+- Will users need to wear protective clothing, such as large gloves or headgear that might affect the choice of interface type? How crowded is the environment?
+- For example, an ATM operates in a very public physical environment – using a speech interface is therefore likely to be problematic.
+
+![ATM](/Images/ATM.jpg)
+![Gloves](/Images/InterfaceWithGloves.jpg)
+
+## 5.2. Social environment
+
+- Human beings are inherently social; people will always need to collaborate, coordinate, and communicate with one another, and the diverse range of applications, web-based services, and technologies that have emerged are enabling them to do so in more extensive and diverse ways.
+- For example, will data need to be shared? If so, does the sharing have to be synchronous (e.g. does everyone need to be viewing the data at once?) or asynchronous (e.g. two people authoring a report take turns in editing it)? Other factors include the physical location of fellow team members, e.g. do collaborators need to communicate across great distances?
+
+## 5.3. Organizational environment
+
+- Organizational environment, e.g.:
+  - How good is user support likely to be, how easily can it be obtained, and are there facilities or resources for training?
+  - How efficient or stable is the communications infrastructure? And so on.
+
+## 5.4. Technical environment
+
+- Will need to be established: for example, what technologies will the product run on or need to be compatible with, and what technological limitations might be relevant?
